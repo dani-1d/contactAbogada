@@ -1,0 +1,72 @@
+.anchor{
+    height: 100%;
+    font-size: 1.5vw;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.ulHome{
+    width: 100%;
+    height: 50%;
+    padding: 1%;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10%;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.anchor:hover {
+    color: rgb(12, 218, 12); /* Cambia al color rojo cuando se selecciona */
+}
+
+
+
+.NavBar{
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    display:flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 5%;
+    background: white;
+}
+
+.DivLogo{
+    width: 30%;
+    height: 30%;
+    background: yellow;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 788px) {
+    .NavBar{
+        height: 10%;
+    }
+}
+
+@media (max-width: 644px) {
+    .NavBar{
+        height: 7%;
+    }
+}
+
+@media (max-width: 450px) {
+    .NavBar{
+        height: 6%;
+    }
+}

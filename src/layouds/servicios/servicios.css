@@ -1,0 +1,184 @@
+.cantainerImg1{
+    color: black;
+}
+.seccionServicios{
+    margin-top: 6%;
+    margin-bottom: 1.7%;
+    width:100%;
+    height: 89.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloSeccionServicios {
+    width: 100%;
+    height: auto; /* Ajuste automático de altura */
+    background-color: #35B276;
+    margin-top: 5%;
+    display: flex;
+    padding-left: 7%;
+    align-items: center;
+}
+
+.containerRecuadrosInfo{
+    width: 92%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-bottom: 2.9%;
+
+}
+
+.recuadrosInfo {
+    width: 13%;
+    min-height: 250px; /* Establecer una altura mínima */
+    background-color: #35B276;
+    font-size: 1vw;
+    overflow: hidden; /* Evita el desbordamiento */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all 0.3s ease; /* Suaviza el cambio de tamaño */
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.recuadrosInfo.expanded {
+    min-height: 350px; /* Incrementa la altura mínima al expandirse */
+    height: auto; /* Permite que se ajuste automáticamente */
+    border: 0px;
+}
+
+.recuadroMasInfo{
+    width: 87%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: #CBCBCB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+}
+.cantainerImg1{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgServi {
+    width: 90%;
+    height: auto; /* Ajuste automático de altura para mantener proporción */
+    background-color: #CBCBCB;
+    margin-bottom: 10px;
+}
+
+.toggleDescripcion {
+    color: #244160; /* Color de texto para enlace */
+    cursor: pointer;
+}
+
+@media (max-width: 973px){
+    .seccionServicios{
+        margin-top: 8.5%;
+        margin-bottom: 1.5%;
+    }
+    .recuadrosInfo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 768px){
+    .seccionServicios{
+        margin-top: 90px;
+        margin-bottom: 18%;
+    }
+    .containerRecuadrosInfo{
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        margin-bottom: 80px;
+    }
+    .recuadrosInfo {
+        width: 150px;
+        height: 150px;
+        font-size: 1.4vw;
+    }
+    .recuadrosInfo.expanded {
+        min-height: 150px;
+    }
+    
+    .recuadroMasInfo{
+        padding: 10px;
+        font-size: 1.8vw;
+    }
+
+    
+    @media (max-width: 622px){
+        .seccionServicios{
+            margin-bottom: 15%;
+        }
+        
+        .recuadrosInfo {
+            font-size: 1.5vw;
+        }
+
+        .containerRecuadrosInfo{
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (max-width: 510px){
+        
+        .seccionServicios{
+            margin-top: 220px;
+            margin-bottom: 230px;
+        }
+        .containerRecuadrosInfo{
+            margin-bottom: 250px;
+            height: 580px;
+        }
+        .recuadrosInfo {
+            font-size: 1.9vw;
+        }
+    }
+
+    @media (max-width: 456px){
+        
+        .seccionServicios{
+            margin-bottom: 250px;
+        }
+        .containerRecuadrosInfo{
+            margin-bottom: 260px;
+        }
+        .recuadrosInfo {
+            font-size: 2.1vw;
+        }
+    }
+
+    @media (max-width: 336px){
+        .recuadrosInfo {
+            width: 140px;
+            height: 50px;
+            font-size: 3vw;
+        }
+        .recuadroMasInfo {
+            font-size: 2.7vw;
+        }
+        
+        .seccionServicios{
+            margin-bottom: 250px;
+        }
+        .containerRecuadrosInfo{
+            margin-bottom: 280px;
+        }
+    }
+
+}
