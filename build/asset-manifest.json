@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dani-1d.github.io/build/static/css/main.6cfaf594.css",
+    "main.js": "/dani-1d.github.io/build/static/js/main.9214c8e3.js",
+    "index.html": "/dani-1d.github.io/build/index.html",
+    "main.6cfaf594.css.map": "/dani-1d.github.io/build/static/css/main.6cfaf594.css.map",
+    "main.9214c8e3.js.map": "/dani-1d.github.io/build/static/js/main.9214c8e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cfaf594.css",
+    "static/js/main.9214c8e3.js"
+  ]
+}
