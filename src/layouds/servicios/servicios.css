@@ -2,7 +2,7 @@
     color: black;
 }
 .seccionServicios{
-    margin-top: 6%;
+    margin-top: 7%;
     margin-bottom: 1.7%;
     width:100%;
     height: 89.1%;
@@ -85,7 +85,7 @@
 
 @media (max-width: 973px){
     .seccionServicios{
-        margin-top: 8.5%;
+        margin-top: 9%;
         margin-bottom: 1.5%;
     }
     .recuadrosInfo {
@@ -95,8 +95,8 @@
 
 @media (max-width: 768px){
     .seccionServicios{
-        margin-top: 90px;
-        margin-bottom: 18%;
+        margin-top: 110px;
+        margin-bottom: 85px;
     }
     .containerRecuadrosInfo{
         height: 100%;
@@ -123,7 +123,8 @@
     
     @media (max-width: 622px){
         .seccionServicios{
-            margin-bottom: 15%;
+            margin-top: 70px;
+            margin-bottom: 5px;
         }
         
         .recuadrosInfo {
@@ -138,8 +139,9 @@
     @media (max-width: 510px){
         
         .seccionServicios{
-            margin-top: 220px;
-            margin-bottom: 230px;
+            margin-top: 200px;
+            margin-bottom: 85px;
+            /*margin-bottom: 230px;*/
         }
         .containerRecuadrosInfo{
             margin-bottom: 250px;
@@ -153,7 +155,7 @@
     @media (max-width: 456px){
         
         .seccionServicios{
-            margin-bottom: 250px;
+            /*margin-bottom: 250px;*/
         }
         .containerRecuadrosInfo{
             margin-bottom: 260px;
@@ -173,9 +175,6 @@
             font-size: 2.7vw;
         }
         
-        .seccionServicios{
-            margin-bottom: 250px;
-        }
         .containerRecuadrosInfo{
             margin-bottom: 280px;
         }

@@ -28,7 +28,7 @@
   align-items: center;
 }
 
-@media (min-width: 1331px){
+@media (min-width: 1093px){
   .cantainerImg{
     margin-top: 120px;
   }
@@ -64,14 +64,16 @@
 
 @media (max-width: 514px){
   .cantainerImg{
-    margin-top: 12%;
+    margin-top: 14%;
+  }
+  .Questions{
+    border: 1px solid black;
   }
 }
 
-
-@media (max-width: 450x){
+@media (max-width: 385px){
   .cantainerImg{
-    margin-top: 0%;
+    margin-top: 60px;
   }
 }
 

@@ -25,10 +25,10 @@
     background-color: blue;
     width: 65%;
     height: 100%;
-    border-left: 4.7vw solid transparent;
-    border-right: 13.5vw solid rgb(255, 255, 255);
-    border-top: 25.09vw solid transparent;
-    border-bottom: 13.18vw solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 135px solid rgb(255, 255, 255);
+    border-top: 380px solid transparent;
+    border-bottom: 230px solid transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +37,7 @@
 
 .containerTextAbout{
     height: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 18%;
@@ -85,6 +86,16 @@
 }
 .containerText2About>div>a:hover{
     color:rgb(113, 167, 32);
+} 
+
+
+@media (max-width: 1042px) {
+    .imgAbout{
+        width: 250px;
+        height: 380px;
+        margin-bottom: 170px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -115,15 +126,16 @@
 
     @media (min-width: 456px){
         .About{
-            margin-top: 20%;
+            margin-top: 12.5%;
         }
         .containerImg {
+            height: 300px;
             align-items: end;
         }
 
         .imgAbout{
             width: auto;
-            height: 70%;
+            height: 95%;
         }
 
         .containerTextAbout{
@@ -155,5 +167,11 @@
     }
     .containerText2About {
         font-size: 2vw;
+    }
+}
+
+@media (max-width: 456px){
+    .containerTextAbout{
+        gap: 7%;
     }
 }
